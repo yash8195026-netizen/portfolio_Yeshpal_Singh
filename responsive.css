@@ -1,0 +1,270 @@
+
+/* =========================
+   Responsive Design
+   ========================= */
+
+/* Universal Responsive Fix */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* =========================
+   Tablet (768px and below)
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Navigation */
+  #home {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .profile_name {
+    padding-left: 0;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .profile_name .contact_info {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .topdiv {
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .topmenu {
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  /* About Me */
+  .container {
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .profile_image {
+    width: 220px;
+    margin: 0 auto 20px;
+  }
+
+  #about-me h1 {
+    font-size: 40px;
+  }
+
+  #about-me p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  /* Headings */
+  h2 {
+    font-size: 32px;
+    padding: 12px;
+  }
+
+  /* Skills */
+  .all_skills {
+    gap: 15px;
+  }
+
+  .skill {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .skill img {
+    width: 55px;
+    height: 55px;
+  }
+
+  /* Projects */
+  .projects-container {
+    margin: 20px;
+  }
+
+  .project-card {
+    padding: 18px;
+  }
+
+  .project-card h3 {
+    font-size: 22px;
+  }
+
+  .project-card li {
+    font-size: 16px;
+  }
+
+  /* Resume */
+  .resume-container {
+    margin: 20px;
+    padding: 18px;
+  }
+
+  .resume-container button {
+    width: 100%;
+  }
+
+  /* Recommendations */
+  .recommendation {
+    width: 90%;
+  }
+
+  /* Recommendation Form */
+  fieldset {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Popup */
+  .popup {
+    width: 90%;
+    padding: 20px;
+  }
+
+  /* Scroll Button */
+  .iconbutton {
+    width: 50px;
+    height: 50px;
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .iconbutton img {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 20px 10px;
+  }
+
+  footer a {
+    display: inline-block;
+    margin: 8px;
+  }
+
+}
+
+/* =========================
+   Mobile (480px and below)
+   ========================= */
+@media (max-width: 480px) {
+
+  .profile_name {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .profile_image {
+    width: 180px;
+  }
+
+  #about-me h1 {
+    font-size: 30px;
+  }
+
+  #about-me p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .topmenu {
+    font-size: 15px;
+    padding: 6px 10px;
+  }
+
+  .skill {
+    width: 100%;
+  }
+
+  .skill h6 {
+    font-size: 18px;
+  }
+
+  .skill p {
+    font-size: 14px;
+  }
+
+  .project-card h3 {
+    font-size: 20px;
+  }
+
+  .project-card li {
+    font-size: 15px;
+  }
+
+  .resume-container {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .resume-container ul {
+    font-size: 16px;
+  }
+
+  .resume-container button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .recommendation {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  fieldset {
+    width: 95%;
+    padding: 12px;
+  }
+
+  input,
+  textarea {
+    font-size: 16px;
+  }
+
+  .popup {
+    width: 95%;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  footer a {
+    font-size: 13px;
+  }
+
+}
